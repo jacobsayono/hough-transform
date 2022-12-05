@@ -39,12 +39,3 @@ for line in lines:
 cv2.imshow('Image with lines', image)
 # cv2.waitKey(0)
 # cv2.destroyAllWindows()
-
-# Canny edge detector -> find edges in image
-# Hough transform -> run on the edges to detect lines
-# Detected lines are drawn on the original image
-
-# In Python, the Hough Transform can be implemented using the
-# hough_line() and hough_circle() methods of the OpenCV library.
-# These methods take as input an image that has been pre-processed to detect edges,
-# and they return the set of detected lines or circles in the form of polar coordinates.
